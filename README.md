@@ -14,11 +14,6 @@ A responsive, feature-rich quiz application built with React.js and Tailwind CSS
 2. Run `npm install` to install dependencies.
 3. Run `npm run dev` to start the local server.
 
-## 🧠 Assumptions & Challenges
-* **API Stability:** The OpenTDB API frequently limits requests or times out.
-* **The Fix:** I implemented a **Robust Fallback System**. If the API fails or takes longer than 4 seconds, the app automatically switches to a local dataset. This ensures the reviewer (you) can always test the app without getting stuck on a loading screen.
-* **Timer Logic:** The timer persists across questions but resets on a full page reload (browser refresh).
-
 ## ✨ Bonus Features
 * **Mobile Responsiveness:** Sidebar toggles on small screens.
 * **Animations:** Smooth question transitions and confetti on completion.
