@@ -1,4 +1,4 @@
-import { QuizProvider } from "./context/QuizContext";
+import { QuizProvider } from "./context/QuizProvider";
 import { useQuiz } from "./hooks/useQuiz";
 import StartScreen from "./components/StartScreen";
 import QuizScreen from "./components/QuizScreen";

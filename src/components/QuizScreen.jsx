@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useQuiz } from "../hooks/useQuiz";
 import { Clock, Menu, X } from "lucide-react";
-import { AnimatePresence } from "framer-motion"; 
+import { motion,AnimatePresence} from "framer-motion"; 
 
 const QuizScreen = () => {
   const { questions, setQuestions, submitQuiz, timer, setTimer } = useQuiz();
@@ -15,7 +15,7 @@ const QuizScreen = () => {
     }
     const interval = setInterval(() => setTimer((p) => p - 1), 1000);
     return () => clearInterval(interval);
-  }, [timer]);
+  }, []);
 
   useEffect(() => {
     if (questions.length > 0) {

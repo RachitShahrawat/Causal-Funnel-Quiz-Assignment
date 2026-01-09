@@ -1,7 +1,5 @@
 # React Quiz Application - CausalFunnel Internship Task
 
-**Hosted Link:** [PASTE YOUR VERCEL LINK HERE]
-
 ## 🚀 Overview
 A responsive, feature-rich quiz application built with React.js and Tailwind CSS. The app features a 30-minute timer, question navigation (Attempted/Visited logic), and a detailed report card.
 
